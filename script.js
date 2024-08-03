@@ -115,7 +115,7 @@ const teams = [
     else if(position == 2){
       return `
     
-      <img class="silver-medal" src="/imagens/medalha-de-prata.png"/>
+      <img class="silver-medal" src="imagens/medalha-de-prata.png"/>
       <a href="${team.link}" target="_blank">
         <img src="${team.image}" alt="${team.nome}" class="team-image">
       </a>
@@ -128,7 +128,7 @@ const teams = [
     else if(position == 3){
       return `
     
-      <img class="bronze-medal" src="/imagens/medalha-de-bronze.png"/>
+      <img class="bronze-medal" src="imagens/medalha-de-bronze.png"/>
       <a href="${team.link}" target="_blank">
         <img src="${team.image}" alt="${team.nome}" class="team-image">
       </a>
@@ -153,19 +153,3 @@ const teams = [
     } 
   }
   
-  //VER ESSE SCRIPT ANTES DE UPAR O SITE
-  //botão de mute e unmute
-        const audio = document.getElementById('backgroundAudio');
-        const muteButton = document.getElementById('muteButton');
-
-        muteButton.addEventListener('click', () => {
-            if (audio.muted) {
-                audio.muted = false;
-                muteButton.classList.remove('mute');
-                muteButton.classList.add('unmute');
-            } else {
-                audio.muted = true;
-                muteButton.classList.remove('unmute');
-                muteButton.classList.add('mute');
-            }
-        });
