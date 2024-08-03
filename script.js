@@ -102,7 +102,7 @@ const teams = [
     if (position == 1){
       return `
     
-      <img class="gold-medal" src="/imagens/medalha-de-ouro.png"/>
+      <img class="gold-medal" src="imagens/medalha-de-ouro.png"/>
       <a href="${team.link}" target="_blank">
         <img src="${team.image}" alt="${team.nome}" class="team-image">
       </a>
