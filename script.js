@@ -102,7 +102,7 @@ const teams = [
     if (position == 1){
       return `
     
-      <img class="gold-medal" src="imagens/medalha-de-ouro.png"/>
+      <img class="gold-medal" src="imagens/medalha-de-ouro.png" />
       <a href="${team.link}" target="_blank">
         <img src="${team.image}" alt="${team.nome}" class="team-image">
       </a>
@@ -115,7 +115,7 @@ const teams = [
     else if(position == 2){
       return `
     
-      <img class="silver-medal" src="imagens/medalha-de-prata.png"/>
+      <img class="silver-medal" src="imagens/medalha-de-prata.png" />
       <a href="${team.link}" target="_blank">
         <img src="${team.image}" alt="${team.nome}" class="team-image">
       </a>
@@ -128,7 +128,7 @@ const teams = [
     else if(position == 3){
       return `
     
-      <img class="bronze-medal" src="imagens/medalha-de-bronze.png"/>
+      <img class="bronze-medal" src="imagens/medalha-de-bronze.png" />
       <a href="${team.link}" target="_blank">
         <img src="${team.image}" alt="${team.nome}" class="team-image">
       </a>
