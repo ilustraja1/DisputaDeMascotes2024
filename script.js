@@ -1,15 +1,15 @@
 // Definindo a array de times
 const teams = [
 
-    {nome: "Athletico-PR",        likes: 30, comments: 2, shares: 1, image: "imagens/mascotes/Athletico_PR.png", link:"https://www.youtube.com/shorts/mJ8hFFtv0DQ"},
+    {nome: "Athletico-PR",        likes: 30, comments: 2, shares: 1, image: "imagens/mascotes/Athletico_PR.png", link:"https://ilustraja1.github.io/DisputaDeMascotes2024-Athletico-PR/"},
 
-    {nome: "Atletico-GO",         likes: 23, comments: 4, shares: 2, image: "imagens/mascotes/Atletico_GO.png", link:"https://www.instagram.com/p/CqzO_UfMb2S/?hl=pt-br"},
+    {nome: "Atletico-GO",         likes: 23, comments: 4, shares: 2, image: "imagens/mascotes/Atletico_GO.png", link:"https://ilustraja1.github.io/DisputaDeMascotes2024-Atletico-GO/"},
     
-    {nome: "Atletico-MG",         likes: 36, comments: 5, shares: 1, image: "imagens/mascotes/Atletico_MG.png", link:"https://www.instagram.com/p/CqzOsmcshVw/?hl=pt-br"},
+    {nome: "Atletico-MG",         likes: 36, comments: 5, shares: 1, image: "imagens/mascotes/Atletico_MG.png", link:"https://ilustraja1.github.io/DisputaDeMascotes2024-Atletico-MG/"},
     
-    {nome: "Bahia",               likes: 19, comments: 3, shares: 1, image: "imagens/mascotes/Bahia.png", link:"https://www.instagram.com/p/CqzOdc2s7s_/?hl=pt-br"},
+    {nome: "Bahia",               likes: 19, comments: 3, shares: 1, image: "imagens/mascotes/Bahia.png", link:"https://ilustraja1.github.io/DisputaDeMascotes2024-Bahia/"},
     
-    {nome: "Botafogo",            likes: 25, comments: 4, shares: 1, image: "imagens/mascotes/Botafogo.png", link:"https://www.instagram.com/p/CqzOQTNsH7W/?hl=pt-br"},
+    {nome: "Botafogo",            likes: 25, comments: 4, shares: 1, image: "imagens/mascotes/Botafogo.png", link:"https://ilustraja1.github.io/DisputaDeMascotes2024-Botafogo/"},
     
     {nome: "Bragantino",          likes: 21, comments: 1, shares: 1, image: "imagens/mascotes/Bragantino.png", link:"https://www.instagram.com/p/CqzN6ByMk9n/?hl=pt-br"},
     
