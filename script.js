@@ -21,7 +21,7 @@ const teams = [
     
     {nome: "Cuiaba",              likes: 25, comments: 1, shares: 1, image: "imagens/mascotes/Cuiaba.png", link:"https://www.instagram.com/p/CqzMsXgM08u/?hl=pt-br"},
     
-    {nome: "Flamengo",            likes: 44, comments: 4, shares: 2, image: "imagens/mascotes/Flamengo.png", link:"https://www.instagram.com/p/CqzMZq4MPZg/?hl=pt-br"},
+    {nome: "Flamengo",            likes: 44, comments: 4, shares: 2, image: "imagens/mascotes/Flamengo.png", link:"https://ilustraja1.github.io/ilustraja1-DisputaDeMascotes2024-Flamengo/"},
     
     {nome: "Fluminense",          likes: 39, comments: 4, shares: 1, image: "imagens/mascotes/Fluminense.png", link:"https://www.instagram.com/p/CqzMNTosrVf/?hl=pt-br"},
     
