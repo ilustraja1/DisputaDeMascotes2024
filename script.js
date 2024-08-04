@@ -103,7 +103,7 @@ const teams = [
       return `
     
       <img class="gold-medal" src="imagens/medalha-de-ouro.png" />
-      <a href="${team.link}" target="_blank">
+      <a href="${team.link}" >
         <img src="${team.image}" alt="${team.nome}" class="team-image">
       </a>
       <!--<p class="team-info">Nome: ${team.nome}</p>-->
@@ -116,7 +116,7 @@ const teams = [
       return `
     
       <img class="silver-medal" src="imagens/medalha-de-prata.png" />
-      <a href="${team.link}" target="_blank">
+      <a href="${team.link}" >
         <img src="${team.image}" alt="${team.nome}" class="team-image">
       </a>
       <!--<p class="team-info">Nome: ${team.nome}</p>-->
@@ -129,7 +129,7 @@ const teams = [
       return `
     
       <img class="bronze-medal" src="imagens/medalha-de-bronze.png" />
-      <a href="${team.link}" target="_blank">
+      <a href="${team.link}" >
         <img src="${team.image}" alt="${team.nome}" class="team-image">
       </a>
       <!--<p class="team-info">Nome: ${team.nome}</p>-->
@@ -142,7 +142,7 @@ const teams = [
       return `
     
       <p class="team-position">${position}º</p>
-      <a href="${team.link}" target="_blank">
+      <a href="${team.link}" >
         <img src="${team.image}" alt="${team.nome}" class="team-image">
       </a>
       <!--<p class="team-info">Nome: ${team.nome}</p>-->
