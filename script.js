@@ -108,7 +108,7 @@ function generateListItem(position, team) {
     </a>
     <!--<p class="team-info">Nome: ${team.nome}</p>-->
     <p class="team-info-likes">Likes: ${team.likes}</p>
-    <p class="team-info-comments">Coments: ${team.comments}</p>
+    <p class="team-info-comments">Comments: ${team.comments}</p>
     <p class="team-info-shares">Shares: ${team.shares}</p>
   `;
   }
@@ -121,7 +121,7 @@ function generateListItem(position, team) {
     </a>
     <!--<p class="team-info">Nome: ${team.nome}</p>-->
     <p class="team-info-likes">Likes: ${team.likes}</p>
-    <p class="team-info-comments">Coments: ${team.comments}</p>
+    <p class="team-info-comments">Comments: ${team.comments}</p>
     <p class="team-info-shares">Shares: ${team.shares}</p>
   `;
   }
@@ -134,7 +134,7 @@ function generateListItem(position, team) {
     </a>
     <!--<p class="team-info">Nome: ${team.nome}</p>-->
     <p class="team-info-likes">Likes: ${team.likes}</p>
-    <p class="team-info-comments">Coments: ${team.comments}</p>
+    <p class="team-info-comments">Comments: ${team.comments}</p>
     <p class="team-info-shares">Shares: ${team.shares}</p>
   `;
   }
@@ -147,7 +147,7 @@ function generateListItem(position, team) {
     </a>
     <!--<p class="team-info">Nome: ${team.nome}</p>-->
     <p class="team-info-likes">Likes: ${team.likes}</p>
-    <p class="team-info-comments">Coments: ${team.comments}</p>
+    <p class="team-info-comments">Comments: ${team.comments}</p>
     <p class="team-info-shares">Shares: ${team.shares}</p>
   `;
   } 
