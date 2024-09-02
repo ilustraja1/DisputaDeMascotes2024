@@ -1,45 +1,45 @@
 // Definindo a array de times
 const teams = [
 
-  {nome: "Athletico-PR",        likes: 44, comments: 4, shares: 1, image: "imagens/mascotes/Athletico_PR.png", link:"https://ilustraja1.github.io/DisputaDeMascotes2024-Athletico-PR/"},
+  {nome: "Athletico-PR",        likes: 46, comments: 5, shares: 1, image: "imagens/mascotes/Athletico_PR.png", link:"https://ilustraja1.github.io/DisputaDeMascotes2024-Athletico-PR/"},
 
-  {nome: "Atletico-GO",         likes: 35, comments: 4, shares: 2, image: "imagens/mascotes/Atletico_GO.png", link:"https://ilustraja1.github.io/DisputaDeMascotes2024-Atletico-GO/"},
+  {nome: "Atletico-GO",         likes: 38, comments: 4, shares: 2, image: "imagens/mascotes/Atletico_GO.png", link:"https://ilustraja1.github.io/DisputaDeMascotes2024-Atletico-GO/"},
   
-  {nome: "Atletico-MG",         likes: 48, comments: 6, shares: 1, image: "imagens/mascotes/Atletico_MG.png", link:"https://ilustraja1.github.io/DisputaDeMascotes2024-Atletico-MG/"},
+  {nome: "Atletico-MG",         likes: 53, comments: 6, shares: 1, image: "imagens/mascotes/Atletico_MG.png", link:"https://ilustraja1.github.io/DisputaDeMascotes2024-Atletico-MG/"},
   
-  {nome: "Bahia",               likes: 41, comments: 4, shares: 2, image: "imagens/mascotes/Bahia.png", link:"https://ilustraja1.github.io/DisputaDeMascotes2024-Bahia/"},
+  {nome: "Bahia",               likes: 47, comments: 4, shares: 2, image: "imagens/mascotes/Bahia.png", link:"https://ilustraja1.github.io/DisputaDeMascotes2024-Bahia/"},
   
-  {nome: "Botafogo",            likes: 56, comments: 8, shares: 2, image: "imagens/mascotes/Botafogo.png", link:"https://ilustraja1.github.io/DisputaDeMascotes2024-Botafogo/"},
+  {nome: "Botafogo",            likes: 61, comments: 8, shares: 2, image: "imagens/mascotes/Botafogo.png", link:"https://ilustraja1.github.io/DisputaDeMascotes2024-Botafogo/"},
   
-  {nome: "Bragantino",          likes: 28, comments: 1, shares: 1, image: "imagens/mascotes/Bragantino.png", link:"https://ilustraja1.github.io/DisputaDeMascotes2024-Bragantino-RB/"},
+  {nome: "Bragantino",          likes: 30, comments: 1, shares: 1, image: "imagens/mascotes/Bragantino.png", link:"https://ilustraja1.github.io/DisputaDeMascotes2024-Bragantino-RB/"},
   
-  {nome: "Corinthians",         likes: 50, comments: 4, shares: 3, image: "imagens/mascotes/Corinthians.png", link:"https://ilustraja1.github.io/DisputaDeMascotes2024-Corinthians/"},
+  {nome: "Corinthians",         likes: 52, comments: 4, shares: 2, image: "imagens/mascotes/Corinthians.png", link:"https://ilustraja1.github.io/DisputaDeMascotes2024-Corinthians/"},
   
-  {nome: "Criciuma",            likes: 44, comments: 2, shares: 2, image: "imagens/mascotes/Criciuma.png", link:"https://ilustraja1.github.io/DisputaDeMascotes2024-Criciuma/"},
+  {nome: "Criciuma",            likes: 46, comments: 1, shares: 2, image: "imagens/mascotes/Criciuma.png", link:"https://ilustraja1.github.io/DisputaDeMascotes2024-Criciuma/"},
   
   {nome: "Cruzeiro",            likes: 55, comments: 5, shares: 3, image: "imagens/mascotes/Cruzeiro.png", link:"https://ilustraja1.github.io/DisputaDeMascotes2024-Cruzeiro/"},
   
-  {nome: "Cuiaba",              likes: 35, comments: 2, shares: 1, image: "imagens/mascotes/Cuiaba.png", link:"https://ilustraja1.github.io/DisputaDeMascotes2024-Cuiaba/"},
+  {nome: "Cuiaba",              likes: 36, comments: 2, shares: 1, image: "imagens/mascotes/Cuiaba.png", link:"https://ilustraja1.github.io/DisputaDeMascotes2024-Cuiaba/"},
   
-  {nome: "Flamengo",            likes: 53, comments: 4, shares: 2, image: "imagens/mascotes/Flamengo.png", link:"https://ilustraja1.github.io/DisputaDeMascotes2024-Flamengo/"},
+  {nome: "Flamengo",            likes: 56, comments: 4, shares: 2, image: "imagens/mascotes/Flamengo.png", link:"https://ilustraja1.github.io/DisputaDeMascotes2024-Flamengo/"},
   
-  {nome: "Fluminense",          likes: 54, comments: 9, shares: 1, image: "imagens/mascotes/Fluminense.png", link:"https://ilustraja1.github.io/DisputaDeMascotes2024-Fluminense/"},
+  {nome: "Fluminense",          likes: 57, comments: 9, shares: 1, image: "imagens/mascotes/Fluminense.png", link:"https://ilustraja1.github.io/DisputaDeMascotes2024-Fluminense/"},
   
-  {nome: "Fortaleza",           likes: 32, comments: 1, shares: 1, image: "imagens/mascotes/Fortaleza.png", link:"https://ilustraja1.github.io/DisputaDeMascotes2024-Fortaleza/"},
+  {nome: "Fortaleza",           likes: 34, comments: 2, shares: 1, image: "imagens/mascotes/Fortaleza.png", link:"https://ilustraja1.github.io/DisputaDeMascotes2024-Fortaleza/"},
   
-  {nome: "Gremio",              likes: 57, comments: 2, shares: 1, image: "imagens/mascotes/Gremio.png", link:"https://ilustraja1.github.io/DisputaDeMascotes2024-Gremio/"},
+  {nome: "Gremio",              likes: 60, comments: 17, shares: 1, image: "imagens/mascotes/Gremio.png", link:"https://ilustraja1.github.io/DisputaDeMascotes2024-Gremio/"},
   
-  {nome: "Internacional",       likes: 50, comments: 1, shares: 1, image: "imagens/mascotes/Internacional.png", link:"https://ilustraja1.github.io/DisputaDeMascotes2024-Internacional/"},
+  {nome: "Internacional",       likes: 54, comments: 1, shares: 1, image: "imagens/mascotes/Internacional.png", link:"https://ilustraja1.github.io/DisputaDeMascotes2024-Internacional/"},
   
-  {nome: "Juventude",           likes: 43, comments: 3, shares: 2, image: "imagens/mascotes/Juventude.png", link:"https://ilustraja1.github.io/DisputaDeMascotes2024-Juventude/"},
+  {nome: "Juventude",           likes: 47, comments: 4, shares: 2, image: "imagens/mascotes/Juventude.png", link:"https://ilustraja1.github.io/DisputaDeMascotes2024-Juventude/"},
   
-  {nome: "Palmeiras",           likes: 74, comments: 2, shares: 2, image: "imagens/mascotes/Palmeiras.png", link:"https://ilustraja1.github.io/DisputaDeMascotes2024-Palmeiras/"},
+  {nome: "Palmeiras",           likes: 80, comments: 2, shares: 2, image: "imagens/mascotes/Palmeiras.png", link:"https://ilustraja1.github.io/DisputaDeMascotes2024-Palmeiras/"},
   
-  {nome: "Sao-Paulo",           likes: 67, comments: 4, shares: 2, image: "imagens/mascotes/Sao_Paulo.png", link:"https://ilustraja1.github.io/DisputaDeMascotes2024-Sao-Paulo/"},
+  {nome: "Sao-Paulo",           likes: 68, comments: 10, shares: 2, image: "imagens/mascotes/Sao_Paulo.png", link:"https://ilustraja1.github.io/DisputaDeMascotes2024-Sao-Paulo/"},
   
-  {nome: "Vasco",               likes: 107, comments: 3, shares: 1, image: "imagens/mascotes/Vasco.png", link:"https://ilustraja1.github.io/DisputaDeMascotes2024-Vasco/"},
+  {nome: "Vasco",               likes: 115, comments: 3, shares: 1, image: "imagens/mascotes/Vasco.png", link:"https://ilustraja1.github.io/DisputaDeMascotes2024-Vasco/"},
   
-  {nome: "Vitoria",             likes: 50, comments: 1, shares: 1, image: "imagens/mascotes/Vitoria.png", link:"https://ilustraja1.github.io/DisputaDeMascotes2024-Vitoria/"}
+  {nome: "Vitoria",             likes: 53, comments: 1, shares: 1, image: "imagens/mascotes/Vitoria.png", link:"https://ilustraja1.github.io/DisputaDeMascotes2024-Vitoria/"}
 ];
 
 // Ordenando os times pelo critério de desempate (Likes, Coments, Shares)
