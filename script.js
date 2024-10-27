@@ -1,191 +1,56 @@
 // Definindo a array de times
 const teams = [
 
-  {nome: "Athletico-PR",
-   likes_insta:   28, likes_tiktok:   24, likes_youtube:   10, likes_twitter:    2, likes_facebook:    0, likes_threads:    0, 
-   comments_insta: 0, comments_tiktok: 3, comments_youtube: 1, comments_twitter: 0, comments_facebook: 0, comments_threads: 0, 
-                                                               shares_twitter:   0, shares_facebook:   1, shares_threads:   0,
-   image: "imagens/mascotes/Athletico_PR.png", 
-   link:"https://ilustraja1.github.io/DisputaDeMascotes2024-Athletico-PR/"},
+  {nome: "Athletico-PR",        likes: 33, comments: 2, shares: 1, image: "imagens/mascotes/Athletico_PR.png", link:"https://ilustraja1.github.io/DisputaDeMascotes2024-Athletico-PR/"},
 
+  {nome: "Atletico-GO",         likes: 25, comments: 4, shares: 2, image: "imagens/mascotes/Atletico_GO.png", link:"https://ilustraja1.github.io/DisputaDeMascotes2024-Atletico-GO/"},
   
-  {nome: "Atletico-GO",         
-   likes_insta:   24, likes_tiktok:   14, likes_youtube:    6, likes_twitter:    4, likes_facebook:    0, likes_threads:    0, 
-   comments_insta: 0, comments_tiktok: 4, comments_youtube: 0, comments_twitter: 0, comments_facebook: 0, comments_threads: 0, 
-                                                               shares_twitter:   1, shares_facebook:   1, shares_threads:   0,
-   image: "imagens/mascotes/Atletico_GO.png", 
-   link:"https://ilustraja1.github.io/DisputaDeMascotes2024-Atletico-GO/"},
+  {nome: "Atletico-MG",         likes: 39, comments: 5, shares: 1, image: "imagens/mascotes/Atletico_MG.png", link:"https://ilustraja1.github.io/DisputaDeMascotes2024-Atletico-MG/"},
   
+  {nome: "Bahia",               likes: 24, comments: 4, shares: 2, image: "imagens/mascotes/Bahia.png", link:"https://ilustraja1.github.io/DisputaDeMascotes2024-Bahia/"},
   
-  {nome: "Atletico-MG",         
-    likes_insta:   41, likes_tiktok:   31, likes_youtube:   12, likes_twitter:    1, likes_facebook:    1, likes_threads:    0, 
-    comments_insta: 0, comments_tiktok: 6, comments_youtube: 0, comments_twitter: 1, comments_facebook: 0, comments_threads: 0, 
-                                                                shares_twitter:   0, shares_facebook:   1, shares_threads:   0,
-
-   image: "imagens/mascotes/Atletico_MG.png", 
-   link:"https://ilustraja1.github.io/DisputaDeMascotes2024-Atletico-MG/"},
+  {nome: "Botafogo",            likes: 32, comments: 4, shares: 2, image: "imagens/mascotes/Botafogo.png", link:"https://ilustraja1.github.io/DisputaDeMascotes2024-Botafogo/"},
   
+  {nome: "Bragantino",          likes: 22, comments: 1, shares: 1, image: "imagens/mascotes/Bragantino.png", link:"https://ilustraja1.github.io/DisputaDeMascotes2024-Bragantino-RB/"},
   
-  {nome: "Bahia",               
-   likes_insta:   22, likes_tiktok:   11, likes_youtube:   28, likes_twitter:    3, likes_facebook:    0, likes_threads:    0, 
-   comments_insta: 1, comments_tiktok: 3, comments_youtube: 1, comments_twitter: 0, comments_facebook: 0, comments_threads: 0, 
-                                                               shares_twitter:   0, shares_facebook:   1, shares_threads:   0, 
-   image: "imagens/mascotes/Bahia.png", 
-   link:"https://ilustraja1.github.io/DisputaDeMascotes2024-Bahia/"},
+  {nome: "Corinthians",         likes: 39, comments: 3, shares: 3, image: "imagens/mascotes/Corinthians.png", link:"https://ilustraja1.github.io/DisputaDeMascotes2024-Corinthians/"},
   
+  {nome: "Criciuma",            likes: 28, comments: 1, shares: 2, image: "imagens/mascotes/Criciuma.png", link:"https://ilustraja1.github.io/DisputaDeMascotes2024-Criciuma/"},
   
-  {nome: "Botafogo",            
-    likes_insta:   30, likes_tiktok:   25, likes_youtube:   43, likes_twitter:    2, likes_facebook:    1, likes_threads: 0, 
-    comments_insta: 3, comments_tiktok: 7, comments_youtube: 2, comments_twitter: 1, comments_facebook: 0, comments_threads: 0, 
-                                                                shares_twitter:   0, shares_facebook:   2, shares_threads: 0, 
-   image: "imagens/mascotes/Botafogo.png", 
-   link:"https://ilustraja1.github.io/DisputaDeMascotes2024-Botafogo/"},
+  {nome: "Cruzeiro",            likes: 39, comments: 5, shares: 2, image: "imagens/mascotes/Cruzeiro.png", link:"https://ilustraja1.github.io/DisputaDeMascotes2024-Cruzeiro/"},
   
- 
-  {nome: "Bragantino",          
-   likes_insta:   19, likes_tiktok:   14, likes_youtube:    9, likes_twitter:    1, likes_facebook:    0, likes_threads:    0, 
-   comments_insta: 0, comments_tiktok: 1, comments_youtube: 0, comments_twitter: 0, comments_facebook: 0, comments_threads: 0, 
-                                                               shares_twitter:   0, shares_facebook:   1, shares_threads:   0,
-   image: "imagens/mascotes/Bragantino.png", 
-   link:"https://ilustraja1.github.io/DisputaDeMascotes2024-Bragantino-RB/"},
+  {nome: "Cuiaba",              likes: 26, comments: 1, shares: 1, image: "imagens/mascotes/Cuiaba.png", link:"https://ilustraja1.github.io/DisputaDeMascotes2024-Cuiaba/"},
   
- 
-  {nome: "Corinthians",         
-   likes_insta:   19, likes_tiktok:   21, likes_youtube:   21, likes_twitter:    1, likes_facebook:    1, likes_threads:    0, 
-   comments_insta: 2, comments_tiktok: 5, comments_youtube: 1, comments_twitter: 0, comments_facebook: 0, comments_threads: 0, 
-                                                               shares_twitter:   0, shares_facebook:   2, shares_threads:   0,
-   image: "imagens/mascotes/Corinthians.png",
-   link:"https://ilustraja1.github.io/DisputaDeMascotes2024-Corinthians/"},
+  {nome: "Flamengo",            likes: 45, comments: 4, shares: 2, image: "imagens/mascotes/Flamengo.png", link:"https://ilustraja1.github.io/DisputaDeMascotes2024-Flamengo/"},
   
- 
-  {nome: "Criciuma",          
-  likes_insta:   14, likes_tiktok:   31, likes_youtube:   11, likes_twitter:    1, likes_facebook:    0, likes_threads:    0, 
-  comments_insta: 0, comments_tiktok: 3, comments_youtube: 0, comments_twitter: 0, comments_facebook: 0, comments_threads: 0, 
-                                                              shares_twitter:   0, shares_facebook:   1, shares_threads:   0,
-   image: "imagens/mascotes/Criciuma.png",
-   link:"https://ilustraja1.github.io/DisputaDeMascotes2024-Criciuma/"},
+  {nome: "Fluminense",          likes: 42, comments: 4, shares: 1, image: "imagens/mascotes/Fluminense.png", link:"https://ilustraja1.github.io/DisputaDeMascotes2024-Fluminense/"},
   
-
-  {nome: "Cruzeiro",          
-    likes_insta:   26, likes_tiktok:   23, likes_youtube:   21, likes_twitter:    2,    likes_facebook: 3,    likes_threads: 0, 
-    comments_insta: 0, comments_tiktok: 7, comments_youtube: 5, comments_twitter: 0, comments_facebook: 1, comments_threads: 0, 
-                                                                shares_twitter:   1,   shares_facebook: 2,   shares_threads: 0, 
-   image: "imagens/mascotes/Cruzeiro.png", 
-   link:"https://ilustraja1.github.io/DisputaDeMascotes2024-Cruzeiro/"},
+  {nome: "Fortaleza",           likes: 25, comments: 1, shares: 1, image: "imagens/mascotes/Fortaleza.png", link:"https://ilustraja1.github.io/DisputaDeMascotes2024-Fortaleza/"},
   
-
-  {nome: "Cuiaba",           
-   likes_insta:   19, likes_tiktok:   13, likes_youtube:    7, likes_twitter:    3, likes_facebook:    1, likes_threads:    0, 
-   comments_insta: 0, comments_tiktok: 2, comments_youtube: 0, comments_twitter: 0, comments_facebook: 0, comments_threads: 0, 
-                                                               shares_twitter:   0, shares_facebook:   1, shares_threads:   0,
-   image: "imagens/mascotes/Cuiaba.png",
-   link:"https://ilustraja1.github.io/DisputaDeMascotes2024-Cuiaba/"},
+  {nome: "Gremio",              likes: 43, comments: 2, shares: 1, image: "imagens/mascotes/Gremio.png", link:"https://ilustraja1.github.io/DisputaDeMascotes2024-Gremio/"},
   
- 
-  {nome: "Flamengo",     
-   likes_insta:   19, likes_tiktok:   27, likes_youtube:   19, likes_twitter:    2, likes_facebook:    0, likes_threads:    0, 
-   comments_insta: 0, comments_tiktok: 4, comments_youtube: 1, comments_twitter: 0, comments_facebook: 0, comments_threads: 0, 
-                                                               shares_twitter:   0, shares_facebook:   1, shares_threads:   0,
-   image: "imagens/mascotes/Flamengo.png",
-   link:"https://ilustraja1.github.io/DisputaDeMascotes2024-Flamengo/"},
+  {nome: "Internacional",       likes: 39, comments: 1, shares: 1, image: "imagens/mascotes/Internacional.png", link:"https://ilustraja1.github.io/DisputaDeMascotes2024-Internacional/"},
   
-
-  {nome: "Fluminense",      
-   likes_insta:   27, likes_tiktok:    26, likes_youtube:   16, likes_twitter:    3, likes_facebook:    2, likes_threads:    0, 
-   comments_insta: 4, comments_tiktok: 10, comments_youtube: 0, comments_twitter: 0, comments_facebook: 1, comments_threads: 0, 
-                                                                shares_twitter:   0, shares_facebook:   1, shares_threads:   0,
-   image: "imagens/mascotes/Fluminense.png",
-   link:"https://ilustraja1.github.io/DisputaDeMascotes2024-Fluminense/"},
+  {nome: "Juventude",           likes: 28, comments: 2, shares: 2, image: "imagens/mascotes/Juventude.png", link:"https://ilustraja1.github.io/DisputaDeMascotes2024-Juventude/"},
   
-
-  {nome: "Fortaleza",        
-   likes_insta:   19, likes_tiktok:   13, likes_youtube:    9, likes_twitter:    2, likes_facebook:    0, likes_threads:    0, 
-   comments_insta: 0, comments_tiktok: 1, comments_youtube: 1, comments_twitter: 0, comments_facebook: 0, comments_threads: 0, 
-                                                               shares_twitter:   0, shares_facebook:   1, shares_threads:   0, 
-   image: "imagens/mascotes/Fortaleza.png",
-   link:"https://ilustraja1.github.io/DisputaDeMascotes2024-Fortaleza/"},
+  {nome: "Palmeiras",           likes: 49, comments: 2, shares: 2, image: "imagens/mascotes/Palmeiras.png", link:"https://ilustraja1.github.io/DisputaDeMascotes2024-Palmeiras/"},
   
-
-  {nome: "Gremio",        
-   likes_insta:   25, likes_tiktok:    33, likes_youtube:   21, likes_twitter:    4, likes_facebook:    0, likes_threads:    0, 
-   comments_insta: 2, comments_tiktok: 44, comments_youtube: 0, comments_twitter: 0, comments_facebook: 0, comments_threads: 0, 
-                                                                shares_twitter:   0, shares_facebook:   1, shares_threads:   0,
-
-   image: "imagens/mascotes/Gremio.png",
-   link:"https://ilustraja1.github.io/DisputaDeMascotes2024-Gremio/"},
+  {nome: "Sao-Paulo",           likes: 53, comments: 4, shares: 3, image: "imagens/mascotes/Sao_Paulo.png", link:"https://ilustraja1.github.io/DisputaDeMascotes2024-Sao-Paulo/"},
   
-
-  {nome: "Internacional",    
-   likes_insta:   29, likes_tiktok:   26, likes_youtube:   15, likes_twitter:    2, likes_facebook:    0, likes_threads:    0, 
-   comments_insta: 0, comments_tiktok: 1, comments_youtube: 0, comments_twitter: 0, comments_facebook: 0, comments_threads: 0, 
-                                                               shares_twitter:   0, shares_facebook:   1, shares_threads:   0,
-   image: "imagens/mascotes/Internacional.png",
-   link:"https://ilustraja1.github.io/DisputaDeMascotes2024-Internacional/"},
+  {nome: "Vasco",               likes: 92, comments: 3, shares: 2, image: "imagens/mascotes/Vasco.png", link:"https://ilustraja1.github.io/DisputaDeMascotes2024-Vasco/"},
   
-
-  {nome: "Juventude",      
-   likes_insta:   23, likes_tiktok:   22, likes_youtube:    5, likes_twitter:    2, likes_facebook:    1, likes_threads:    0, 
-   comments_insta: 0, comments_tiktok: 2, comments_youtube: 0, comments_twitter: 1, comments_facebook: 0, comments_threads: 0, 
-                                                               shares_twitter:   0, shares_facebook:   1, shares_threads:   0,
-   image: "imagens/mascotes/Juventude.png",
-   link:"https://ilustraja1.github.io/DisputaDeMascotes2024-Juventude/"},
-  
-
-  {nome: "Palmeiras",       
-   likes_insta:   29, likes_tiktok:   47, likes_youtube:   18, likes_twitter:    2, likes_facebook:    1, likes_threads:    1, 
-   comments_insta: 1, comments_tiktok: 4, comments_youtube: 2, comments_twitter: 0, comments_facebook: 0, comments_threads: 0, 
-                                                               shares_twitter:   0, shares_facebook:   1, shares_threads:   0,
-   image: "imagens/mascotes/Palmeiras.png",
-   link:"https://ilustraja1.github.io/DisputaDeMascotes2024-Palmeiras/"},
-  
-
-  {nome: "Sao-Paulo",       
-   likes_insta:   33, likes_tiktok:   33, likes_youtube:   12, likes_twitter:    3, likes_facebook:    2, likes_threads:    0, 
-   comments_insta: 7, comments_tiktok: 5, comments_youtube: 1, comments_twitter: 0, comments_facebook: 0, comments_threads: 0, 
-                                                               shares_twitter:   0, shares_facebook:   1, shares_threads:   0,
-   image: "imagens/mascotes/Sao_Paulo.png", 
-   link:"https://ilustraja1.github.io/DisputaDeMascotes2024-Sao-Paulo/"},
-
-  
-  {nome: "Vasco",              
-   likes_insta:   27, likes_tiktok:   40, likes_youtube:   87, likes_twitter:    1, likes_facebook:    0, likes_threads:    0, 
-   comments_insta: 0, comments_tiktok: 3, comments_youtube: 3, comments_twitter: 0, comments_facebook: 0, comments_threads: 0, 
-                                                               shares_twitter:   0, shares_facebook:   1, shares_threads:   0,
-   image: "imagens/mascotes/Vasco.png", 
-   link:"https://ilustraja1.github.io/DisputaDeMascotes2024-Vasco/"},
-  
-  {nome: "Vitoria",            
-   likes_insta:   22, likes_tiktok:   21, likes_youtube:   18, likes_twitter:    1, likes_facebook:    0, likes_threads:    0, 
-   comments_insta: 0, comments_tiktok: 1, comments_youtube: 0, comments_twitter: 0, comments_facebook: 0, comments_threads: 0, 
-                                                               shares_twitter:   0, shares_facebook:   1, shares_threads:   0,
-   image: "imagens/mascotes/Vitoria.png", 
-   link:"https://ilustraja1.github.io/DisputaDeMascotes2024-Vitoria/"}
-  
+  {nome: "Vitoria",             likes: 42, comments: 1, shares: 1, image: "imagens/mascotes/Vitoria.png", link:"https://ilustraja1.github.io/DisputaDeMascotes2024-Vitoria/"}
 ];
 
-// Função para calcular os totais de likes, comments e shares
-function calculateTotals(team) {
-    return {
-        likes: team.likes_insta + team.likes_tiktok + team.likes_youtube + team.likes_twitter + team.likes_facebook + team.likes_threads,
-        comments: team.comments_insta + team.comments_tiktok + team.comments_youtube + team.comments_twitter + team.comments_facebook + team.comments_threads,
-        shares: team.shares_twitter + team.shares_facebook + team.shares_threads
-    };
-}
-
-
-
-// Ordenando os times pelo critério de desempate (Likes, Comments, Shares)
+// Ordenando os times pelo critério de desempate (Likes, Coments, Shares)
 teams.sort((a, b) => {
-    const totalA = calculateTotals(a);
-    const totalB = calculateTotals(b);
-
-    if (totalA.likes !== totalB.likes) {
-        return totalB.likes - totalA.likes;
-    } else if (totalA.comments !== totalB.comments) {
-        return totalB.comments - totalA.comments;
-    } else {
-        return totalB.shares - totalA.shares;
-    }
+  if (a.likes !== b.likes) {
+    return b.likes - a.likes;
+  } else if (a.comments !== b.comments) {
+    return b.comments - a.comments;
+  } else {
+    return b.shares - a.shares;
+  }
 });
 
 // Selecionando os elementos das posições do ranking
@@ -232,6 +97,7 @@ colocado18.innerHTML = generateListItem(18, teams[17]);
 colocado19.innerHTML = generateListItem(19, teams[18]);
 colocado20.innerHTML = generateListItem(20, teams[19]);
 
+// Função para gerar o conteúdo de cada <li>
 function generateListItem(position, team) {
   if (position == 1){
     return `
@@ -241,9 +107,9 @@ function generateListItem(position, team) {
       <img src="${team.image}" alt="${team.nome}" class="team-image">
     </a>
     <!--<p class="team-info">Nome: ${team.nome}</p>-->
-    <p class="team-info-likes">Likes: ${totals.likes}</p>
-    <p class="team-info-comments">Comments: ${totals.comments}</p>
-    <p class="team-info-shares">Shares: ${totals.shares}</p>
+    <p class="team-info-likes">Likes: ${team.likes}</p>
+    <p class="team-info-comments">Coments: ${team.comments}</p>
+    <p class="team-info-shares">Shares: ${team.shares}</p>
   `;
   }
   else if(position == 2){
@@ -254,9 +120,9 @@ function generateListItem(position, team) {
       <img src="${team.image}" alt="${team.nome}" class="team-image">
     </a>
     <!--<p class="team-info">Nome: ${team.nome}</p>-->
-    <p class="team-info-likes">Likes: ${totals.likes}</p>
-    <p class="team-info-comments">Comments: ${totals.comments}</p>
-    <p class="team-info-shares">Shares: ${totals.shares}</p>
+    <p class="team-info-likes">Likes: ${team.likes}</p>
+    <p class="team-info-comments">Coments: ${team.comments}</p>
+    <p class="team-info-shares">Shares: ${team.shares}</p>
   `;
   }
   else if(position == 3){
@@ -267,9 +133,9 @@ function generateListItem(position, team) {
       <img src="${team.image}" alt="${team.nome}" class="team-image">
     </a>
     <!--<p class="team-info">Nome: ${team.nome}</p>-->
-    <p class="team-info-likes">Likes: ${totals.likes}</p>
-    <p class="team-info-comments">Comments: ${totals.comments}</p>
-    <p class="team-info-shares">Shares: ${totals.shares}</p>
+    <p class="team-info-likes">Likes: ${team.likes}</p>
+    <p class="team-info-comments">Coments: ${team.comments}</p>
+    <p class="team-info-shares">Shares: ${team.shares}</p>
   `;
   }
   else{
@@ -280,9 +146,9 @@ function generateListItem(position, team) {
       <img src="${team.image}" alt="${team.nome}" class="team-image">
     </a>
     <!--<p class="team-info">Nome: ${team.nome}</p>-->
-    <p class="team-info-likes">Likes: ${totals.likes}</p>
-    <p class="team-info-comments">Comments: ${totals.comments}</p>
-    <p class="team-info-shares">Shares: ${totals.shares}</p>
+    <p class="team-info-likes">Likes: ${team.likes}</p>
+    <p class="team-info-comments">Coments: ${team.comments}</p>
+    <p class="team-info-shares">Shares: ${team.shares}</p>
   `;
   } 
 }
