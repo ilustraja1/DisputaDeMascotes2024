@@ -210,29 +210,6 @@ const colocado18 = document.getElementById('colocado-18');
 const colocado19 = document.getElementById('colocado-19');
 const colocado20 = document.getElementById('colocado-20');
 
-// Preenchendo as informações de cada posição do ranking
-colocado01.innerHTML = generateTableRow(1, teams[0]);
-colocado02.innerHTML = generateTableRow(2, teams[1]);
-colocado03.innerHTML = generateTableRow(3, teams[2]);
-colocado04.innerHTML = generateTableRow(4, teams[3]);
-colocado05.innerHTML = generateTableRow(5, teams[4]);
-colocado06.innerHTML = generateTableRow(6, teams[5]);
-colocado07.innerHTML = generateTableRow(7, teams[6]);
-colocado08.innerHTML = generateTableRow(8, teams[7]);
-colocado09.innerHTML = generateTableRow(9, teams[8]);
-colocado10.innerHTML = generateTableRow(10, teams[9]);
-colocado11.innerHTML = generateTableRow(11, teams[10]);
-colocado12.innerHTML = generateTableRow(12, teams[11]);
-colocado13.innerHTML = generateTableRow(13, teams[12]);
-colocado14.innerHTML = generateTableRow(14, teams[13]);
-colocado15.innerHTML = generateTableRow(15, teams[14]);
-colocado16.innerHTML = generateTableRow(16, teams[15]);
-colocado17.innerHTML = generateTableRow(17, teams[16]);
-colocado18.innerHTML = generateTableRow(18, teams[17]);
-colocado19.innerHTML = generateTableRow(19, teams[18]);
-colocado20.innerHTML = generateTableRow(20, teams[19]);
-
-
 function generateListItem(position, team) {
   if (position == 1){
     return `
