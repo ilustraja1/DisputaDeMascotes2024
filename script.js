@@ -232,16 +232,59 @@ colocado18.innerHTML = generateTableRow(18, teams[17]);
 colocado19.innerHTML = generateTableRow(19, teams[18]);
 colocado20.innerHTML = generateTableRow(20, teams[19]);
 
-// Função para gerar o conteúdo de cada linha da tabela
-function generateTableRow(position, team) {
-    const totals = calculateTotals(team);
+
+function generateListItem(position, team) {
+  if (position == 1){
     return `
-    <tr>
-        <td class="team-position">${position}º</td>
-        <td><a href="${team.link}"><img src="${team.image}" alt="${team.nome}" class="team-image"></a></td>
-        <td class="team-info-likes">${totals.likes}</td>
-        <td class="team-info-comments">${totals.comments}</td>
-        <td class="team-info-shares">${totals.shares}</td>
-    </tr>
-    `;
+  
+    <img class="gold-medal" src="imagens/medalha-de-ouro.png" />
+    <a href="${team.link}" >
+      <img src="${team.image}" alt="${team.nome}" class="team-image">
+    </a>
+    <!--<p class="team-info">Nome: ${team.nome}</p>-->
+    <p class="team-info-likes">Likes: ${totals.likes}</p>
+    <p class="team-info-comments">Comments: ${totals.comments}</p>
+    <p class="team-info-shares">Shares: ${totals.shares}</p>
+  `;
+  }
+  else if(position == 2){
+    return `
+  
+    <img class="silver-medal" src="imagens/medalha-de-prata.png" />
+    <a href="${team.link}" >
+      <img src="${team.image}" alt="${team.nome}" class="team-image">
+    </a>
+    <!--<p class="team-info">Nome: ${team.nome}</p>-->
+    <p class="team-info-likes">Likes: ${totals.likes}</p>
+    <p class="team-info-comments">Comments: ${totals.comments}</p>
+    <p class="team-info-shares">Shares: ${totals.shares}</p>
+  `;
+  }
+  else if(position == 3){
+    return `
+  
+    <img class="bronze-medal" src="imagens/medalha-de-bronze.png" />
+    <a href="${team.link}" >
+      <img src="${team.image}" alt="${team.nome}" class="team-image">
+    </a>
+    <!--<p class="team-info">Nome: ${team.nome}</p>-->
+    <p class="team-info-likes">Likes: ${totals.likes}</p>
+    <p class="team-info-comments">Comments: ${totals.comments}</p>
+    <p class="team-info-shares">Shares: ${totals.shares}</p>
+  `;
+  }
+  else{
+    return `
+  
+    <p class="team-position">${position}º</p>
+    <a href="${team.link}" >
+      <img src="${team.image}" alt="${team.nome}" class="team-image">
+    </a>
+    <!--<p class="team-info">Nome: ${team.nome}</p>-->
+    <p class="team-info-likes">Likes: ${totals.likes}</p>
+    <p class="team-info-comments">Comments: ${totals.comments}</p>
+    <p class="team-info-shares">Shares: ${totals.shares}</p>
+  `;
+  } 
 }
+
