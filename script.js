@@ -36,7 +36,7 @@ const teams = [
       link:"https://ilustraja1.github.io/DisputaDeMascotes2024-Bahia/"},
  
   {nome: "Botafogo", 
-      likes_insta:   34, likes_tiktok:   25, likes_youtube:   43, likes_twitter:    2, likes_facebook:    1, likes_threads: 0, 
+      likes_insta:   36, likes_tiktok:   25, likes_youtube:   43, likes_twitter:    2, likes_facebook:    1, likes_threads: 0, 
       comments_insta: 4, comments_tiktok: 7, comments_youtube: 2, comments_twitter: 1, comments_facebook: 0, comments_threads: 0, 
                                                                   shares_twitter:   0, shares_facebook:   2, shares_threads: 0,
 
@@ -68,7 +68,7 @@ const teams = [
       link:"https://ilustraja1.github.io/DisputaDeMascotes2024-Criciuma/"},
 
   {nome: "Cruzeiro", 
-      likes_insta:   26, likes_tiktok:   23, likes_youtube:   21, likes_twitter:    2,    likes_facebook: 3,    likes_threads: 0, 
+      likes_insta:   28, likes_tiktok:   23, likes_youtube:   21, likes_twitter:    2,    likes_facebook: 3,    likes_threads: 0, 
       comments_insta: 0, comments_tiktok: 7, comments_youtube: 5, comments_twitter: 0, comments_facebook: 1, comments_threads: 0, 
                                                                   shares_twitter:   1,   shares_facebook: 2,   shares_threads: 0,
 
@@ -84,7 +84,7 @@ const teams = [
       link:"https://ilustraja1.github.io/DisputaDeMascotes2024-Cuiaba/"},
 
   {nome: "Flamengo", 
-      likes_insta:   19, likes_tiktok:   27, likes_youtube:   19, likes_twitter:    2, likes_facebook:    0, likes_threads:    0, 
+      likes_insta:   20, likes_tiktok:   27, likes_youtube:   19, likes_twitter:    2, likes_facebook:    0, likes_threads:    0, 
       comments_insta: 0, comments_tiktok: 4, comments_youtube: 1, comments_twitter: 0, comments_facebook: 0, comments_threads: 0, 
                                                                   shares_twitter:   0, shares_facebook:   1, shares_threads:   0,
 
@@ -92,7 +92,7 @@ const teams = [
       link:"https://ilustraja1.github.io/DisputaDeMascotes2024-Flamengo/"},
 
   {nome: "Fluminense", 
-      likes_insta:   28, likes_tiktok:    26, likes_youtube:   16, likes_twitter:    3, likes_facebook:    2, likes_threads:    0, 
+      likes_insta:   29, likes_tiktok:    26, likes_youtube:   16, likes_twitter:    3, likes_facebook:    2, likes_threads:    0, 
       comments_insta: 4, comments_tiktok: 10, comments_youtube: 0, comments_twitter: 0, comments_facebook: 1, comments_threads: 0, 
                                                                    shares_twitter:   0, shares_facebook:   1, shares_threads:   0,
 
