@@ -36,9 +36,9 @@ const teams = [
       link:"https://ilustraja1.github.io/DisputaDeMascotes2024-Bahia/"},
  
   {nome: "Botafogo", 
-      likes_insta:   36, likes_tiktok:   25, likes_youtube:   43, likes_twitter:    2, likes_facebook:    1, likes_threads: 0, 
+      likes_insta:   36, likes_tiktok:   25, likes_youtube:   43, likes_twitter:    2, likes_facebook:    1, likes_threads:    0, 
       comments_insta: 4, comments_tiktok: 7, comments_youtube: 2, comments_twitter: 1, comments_facebook: 0, comments_threads: 0, 
-                                                                  shares_twitter:   0, shares_facebook:   2, shares_threads: 0,
+                                                                  shares_twitter:   0, shares_facebook:   2, shares_threads:   0,
 
       image: "imagens/mascotes/Botafogo.png", 
       link:"https://ilustraja1.github.io/DisputaDeMascotes2024-Botafogo/"},
